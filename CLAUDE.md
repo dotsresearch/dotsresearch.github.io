@@ -159,8 +159,11 @@ are derivable, and AMS and Wiley DOIs are not. `@unpublished` entries have
 neither field.
 
 **A person** — copy a `.person-card` block in `people.qmd` *and*
-`_en/people.qmd`, under the right heading (主持人 / 研究助理 / 研究生 /
-大學部專題生 / 畢業與離任成員). A card holds, in order: an optional
+`_en/people.qmd`, under the right heading. Only the two staffed headings
+exist (主持人 / 研究助理 — Principal investigator / Research staff); the
+empty 研究生, 大學部專題生 and 畢業與離任成員 sections were deliberately
+removed rather than left standing empty, so add a heading back when there is
+somebody to put under it — in **both** trees. A card holds, in order: an optional
 `.person-photo` image, `.person-name`, `.person-role`, an optional
 `.person-edu` (a plain markdown list, one degree per line, newest first), an
 optional `.person-links`, and an optional `.person-bio`.
@@ -192,7 +195,10 @@ language file — four occurrences total, two of them inside the commented-out
 `<img>` links.
 
 **A research theme** — add a `##` section to `research.qmd` and
-`_en/research.qmd`, and a matching `.research-card` on both home pages.
+`_en/research.qmd`, and, if it should be featured, a matching
+`.research-card` on both home pages. The home page shows a *subset*: 軌跡模擬
+/ Trajectory modeling is a research section with no home-page card. The two
+home pages must still carry the same cards as each other.
 
 ## 7. Placeholder convention
 

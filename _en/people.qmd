@@ -49,27 +49,3 @@ Research Assistant
 :::
 :::
 :::
-
-## Graduate students
-
-::: {.people-grid}
-::: {.person-card}
-::: {.person-name}
-[TODO: name]
-:::
-::: {.person-role}
-[TODO: degree / year]
-:::
-::: {.person-bio}
-[TODO: research topic]
-:::
-:::
-:::
-
-## Undergraduate researchers
-
-[TODO: undergraduate members]
-
-## Alumni
-
-[TODO: alumni list]

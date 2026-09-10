@@ -5,7 +5,7 @@ page-layout: full
 
 ::: {.hero}
 ::: {.hero-eyebrow}
-PAUSE Lab · Chinese Culture University
+PAUSE Lab
 :::
 
 # Processes At the UTLS and Satellite Exploration {.hero-title}
@@ -14,12 +14,8 @@ PAUSE Lab · Chinese Culture University
 對流層頂過程與衛星探測實驗室
 :::
 
-::: {.hero-sub}
-[TODO: one- or two-sentence lab mission statement]
-:::
-
 ::: {.hero-affil}
-Chinese Culture University · Taiwan · PI: Kai-Wei Chang
+Chinese Culture University · Department of Atmospheric and Geological Sciences · PI: Kai-Wei Chang
 :::
 :::
 
@@ -43,12 +39,6 @@ stratosphere (UTLS), and develop satellite-based methods for observing them.
 
 ::: {.research-card}
 ### UTLS processes
-
-[TODO: short description]
-:::
-
-::: {.research-card}
-### Trajectory modeling
 
 [TODO: short description]
 :::

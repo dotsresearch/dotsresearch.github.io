@@ -1,0 +1,100 @@
+[
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "研究",
+    "section": "",
+    "text": "[TODO: 一段研究整體概述]"
+  },
+  {
+    "objectID": "research.html#平流層對流層交換ste",
+    "href": "research.html#平流層對流層交換ste",
+    "title": "研究",
+    "section": "平流層－對流層交換（STE）",
+    "text": "平流層－對流層交換（STE）\n[TODO: 研究說明]"
+  },
+  {
+    "objectID": "research.html#對流層頂摺曲",
+    "href": "research.html#對流層頂摺曲",
+    "title": "研究",
+    "section": "對流層頂摺曲",
+    "text": "對流層頂摺曲\n[TODO: 研究說明]"
+  },
+  {
+    "objectID": "research.html#utls-過程",
+    "href": "research.html#utls-過程",
+    "title": "研究",
+    "section": "UTLS 過程",
+    "text": "UTLS 過程\n[TODO: 研究說明]"
+  },
+  {
+    "objectID": "research.html#軌跡模擬",
+    "href": "research.html#軌跡模擬",
+    "title": "研究",
+    "section": "軌跡模擬",
+    "text": "軌跡模擬\n[TODO: 研究說明]"
+  },
+  {
+    "objectID": "research.html#微波衛星反演",
+    "href": "research.html#微波衛星反演",
+    "title": "研究",
+    "section": "微波衛星反演",
+    "text": "微波衛星反演\n[TODO: 研究說明]\n\n\n\n\nATMS 微波反演即時監看\n\n\n[TODO: 工具說明——反演的物理量、資料來源與更新頻率]\n東亞地區（100–140°E、10–50°N）的 ATMS 反演結果，以 LightGBM 即時運算，並在可取得時與 MiRS 產品比對。\n\n開啟工具\n\n[TODO: 擷取畫面尚未加入，請將圖檔放入 images/tools/]"
+  },
+  {
+    "objectID": "research.html#研究資助",
+    "href": "research.html#研究資助",
+    "title": "研究",
+    "section": "研究資助",
+    "text": "研究資助\n[TODO: 計畫與經費來源]"
+  },
+  {
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "成員",
+    "section": "",
+    "text": "張凱威 Kai-Wei Chang\n\n\n專任助理教授\n\n\n\n2019　University of Wisconsin–Madison, Atmospheric and Oceanic Sciences, PhD\n2013　國立中央大學 遙測科技碩士學位學程 碩士\n2011　國立中央大學 大氣科學學系太空組 學士\n\n\n\n個人網站 · Google Scholar"
+  },
+  {
+    "objectID": "people.html#主持人",
+    "href": "people.html#主持人",
+    "title": "成員",
+    "section": "",
+    "text": "張凱威 Kai-Wei Chang\n\n\n專任助理教授\n\n\n\n2019　University of Wisconsin–Madison, Atmospheric and Oceanic Sciences, PhD\n2013　國立中央大學 遙測科技碩士學位學程 碩士\n2011　國立中央大學 大氣科學學系太空組 學士\n\n\n\n個人網站 · Google Scholar"
+  },
+  {
+    "objectID": "people.html#研究助理",
+    "href": "people.html#研究助理",
+    "title": "成員",
+    "section": "研究助理",
+    "text": "研究助理\n\n\n\n\n鍾佳慧\n\n\n專任研究助理\n\n\n\n國立臺灣師範大學 地球科學學系 碩士\n中國文化大學 大氣科學系 學士"
+  },
+  {
+    "objectID": "gallery.html",
+    "href": "gallery.html",
+    "title": "圖庫",
+    "section": "",
+    "text": "[TODO: 圖庫說明文字]\n\n\n\n[TODO: 尚未加入圖片，請將圖檔放入 images/gallery/]"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "對流層頂過程與衛星探測實驗室",
+    "section": "",
+    "text": "PAUSE Lab\n\n\n\n\nPAUSE — Processes At the UTLS and Satellite Exploration\n\n\n文化大學 · 大氣與地質科學系 · 主持人：張凱威"
+  },
+  {
+    "objectID": "index.html#研究方向",
+    "href": "index.html#研究方向",
+    "title": "對流層頂過程與衛星探測實驗室",
+    "section": "研究方向",
+    "text": "研究方向\n我們研究上對流層與下平流層（UTLS）的動力與傳送過程，並發展相關的衛星觀測分析方法。\n\n\n平流層－對流層交換\n[TODO: 簡短說明]\n\n\n對流層頂摺曲\n[TODO: 簡短說明]\n\n\nUTLS 過程\n[TODO: 簡短說明]\n\n\n微波衛星反演\n[TODO: 簡短說明]\n\n\n閱讀更多研究內容"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "論文著作",
+    "section": "",
+    "text": "Chang, K.-W., and C.-H. Chung, 2026: Attributing stratosphere-troposphere mass exchange to tropopause folds: A 45-year trajectory-based climatology and trend analysis in ERA5. Manuscript submitted.\n\n\nShepherd, C. M., and Coauthors, 2026: Evaluating the impacts of storm-scale and environmental factors on stratosphere-troposphere exchange associated with midlatitude convection. J. Geophys. Res. Atmos., 131, e2025JD045514, https://doi.org/10.1029/2025JD045514.\n\n\nChang, K.-W., K. P. Bowman, and A. D. Rapp, 2023: Transport and confinement of plumes from tropopause-overshooting convection over the contiguous United States during the warm season. J. Geophys. Res. Atmos., 128, e2022JD037020, https://doi.org/10.1029/2022JD037020.\n\n\nChang, K.-W., K. P. Bowman, L. W. Siu, and A. D. Rapp, 2021: Convective forcing of the North American monsoon anticyclone at intraseasonal and interannual time scales. J. Atmos. Sci., 78, 2941–2956, https://doi.org/10.1175/JAS-D-21-0009.1.\n\n\nChang, K.-W., and T. L’Ecuyer, 2020: Influence of gravity wave temperature anomalies and their vertical gradients on cirrus clouds in the tropical tropopause layer – a satellite-based view. Atmos. Chem. Phys., 20, 12499–12514, https://doi.org/10.5194/acp-20-12499-2020.\n\n\nChang, K.-W., and T. S. L’Ecuyer, 2019: Role of latent heating vertical distribution in the formation of the tropical cold trap. J. Geophys. Res. Atmos., 124, 7836–7851, https://doi.org/10.1029/2018JD030194.\n\n\nDzambo, A. M., M. H. Hitchman, and K.-W. Chang, 2019: The influence of gravity waves on ice saturation in the tropical tropopause layer over Darwin, Australia. Atmosphere, 10, 778, https://doi.org/10.3390/atmos10120778.\n\n\nChang, K.-W., T. S. L’Ecuyer, B. H. Kahn, and V. Natraj, 2017: Information content of visible and midinfrared radiances for retrieving tropical ice cloud properties. J. Geophys. Res. Atmos., 122, 4944–4966, https://doi.org/10.1002/2016JD026357."
+  }
+]

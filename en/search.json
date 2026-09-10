@@ -1,0 +1,100 @@
+[
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "[TODO: overview paragraph]"
+  },
+  {
+    "objectID": "research.html#stratospheretroposphere-exchange-ste",
+    "href": "research.html#stratospheretroposphere-exchange-ste",
+    "title": "Research",
+    "section": "Stratosphere–troposphere exchange (STE)",
+    "text": "Stratosphere–troposphere exchange (STE)\n[TODO: description]"
+  },
+  {
+    "objectID": "research.html#tropopause-folds",
+    "href": "research.html#tropopause-folds",
+    "title": "Research",
+    "section": "Tropopause folds",
+    "text": "Tropopause folds\n[TODO: description]"
+  },
+  {
+    "objectID": "research.html#utls-processes",
+    "href": "research.html#utls-processes",
+    "title": "Research",
+    "section": "UTLS processes",
+    "text": "UTLS processes\n[TODO: description]"
+  },
+  {
+    "objectID": "research.html#trajectory-modeling",
+    "href": "research.html#trajectory-modeling",
+    "title": "Research",
+    "section": "Trajectory modeling",
+    "text": "Trajectory modeling\n[TODO: description]"
+  },
+  {
+    "objectID": "research.html#microwave-satellite-retrievals",
+    "href": "research.html#microwave-satellite-retrievals",
+    "title": "Research",
+    "section": "Microwave satellite retrievals",
+    "text": "Microwave satellite retrievals\n[TODO: description]\n\n\n\n\nATMS retrievals\n\n\n[TODO: tool description — retrieved quantities, input data, update cadence]\nLive LightGBM retrievals over East Asia (100–140°E, 10–50°N), compared against MiRS where available.\n\nOpen the tool\n\n[TODO: no screenshot yet — add one to images/tools/]"
+  },
+  {
+    "objectID": "research.html#funding",
+    "href": "research.html#funding",
+    "title": "Research",
+    "section": "Funding",
+    "text": "Funding\n[TODO: grants and funding sources]"
+  },
+  {
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "People",
+    "section": "",
+    "text": "Kai-Wei Chang 張凱威\n\n\nAssistant Professor\n\n\n\n2019　PhD, Atmospheric and Oceanic Sciences, University of Wisconsin–Madison\n2013　MS, Master Program in Remote Sensing Science and Technology, National Central University\n2011　BS, Department of Atmospheric Sciences (Space Science Division), National Central University\n\n\n\nPersonal website · Google Scholar"
+  },
+  {
+    "objectID": "people.html#principal-investigator",
+    "href": "people.html#principal-investigator",
+    "title": "People",
+    "section": "",
+    "text": "Kai-Wei Chang 張凱威\n\n\nAssistant Professor\n\n\n\n2019　PhD, Atmospheric and Oceanic Sciences, University of Wisconsin–Madison\n2013　MS, Master Program in Remote Sensing Science and Technology, National Central University\n2011　BS, Department of Atmospheric Sciences (Space Science Division), National Central University\n\n\n\nPersonal website · Google Scholar"
+  },
+  {
+    "objectID": "people.html#research-staff",
+    "href": "people.html#research-staff",
+    "title": "People",
+    "section": "Research staff",
+    "text": "Research staff\n\n\n\n\n\nC.-H. Chung 鍾佳慧\n\n\nResearch Assistant\n\n\n\nMS, Department of Earth Sciences, National Taiwan Normal University\nBS, Department of Atmospheric Sciences, Chinese Culture University"
+  },
+  {
+    "objectID": "gallery.html",
+    "href": "gallery.html",
+    "title": "Gallery",
+    "section": "",
+    "text": "[TODO: gallery introduction]\n\n\n\n[TODO: no figures yet — add images to images/gallery/]"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Processes At the UTLS and Satellite Exploration",
+    "section": "",
+    "text": "PAUSE Lab\n\n\n\n\n對流層頂過程與衛星探測實驗室\n\n\nChinese Culture University · Department of Atmospheric and Geological Sciences · PI: Kai-Wei Chang"
+  },
+  {
+    "objectID": "index.html#research",
+    "href": "index.html#research",
+    "title": "Processes At the UTLS and Satellite Exploration",
+    "section": "Research",
+    "text": "Research\nWe study dynamics and transport in the upper troposphere and lower stratosphere (UTLS), and develop satellite-based methods for observing them.\n\n\nStratosphere–troposphere exchange\n[TODO: short description]\n\n\nTropopause folds\n[TODO: short description]\n\n\nUTLS processes\n[TODO: short description]\n\n\nMicrowave satellite retrievals\n[TODO: short description]\n\n\nRead more about our research"
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Chang, K.-W., and C.-H. Chung, 2026: Attributing stratosphere-troposphere mass exchange to tropopause folds: A 45-year trajectory-based climatology and trend analysis in ERA5. Manuscript submitted.\n\n\nShepherd, C. M., and Coauthors, 2026: Evaluating the impacts of storm-scale and environmental factors on stratosphere-troposphere exchange associated with midlatitude convection. J. Geophys. Res. Atmos., 131, e2025JD045514, https://doi.org/10.1029/2025JD045514.\n\n\nChang, K.-W., K. P. Bowman, and A. D. Rapp, 2023: Transport and confinement of plumes from tropopause-overshooting convection over the contiguous United States during the warm season. J. Geophys. Res. Atmos., 128, e2022JD037020, https://doi.org/10.1029/2022JD037020.\n\n\nChang, K.-W., K. P. Bowman, L. W. Siu, and A. D. Rapp, 2021: Convective forcing of the North American monsoon anticyclone at intraseasonal and interannual time scales. J. Atmos. Sci., 78, 2941–2956, https://doi.org/10.1175/JAS-D-21-0009.1.\n\n\nChang, K.-W., and T. L’Ecuyer, 2020: Influence of gravity wave temperature anomalies and their vertical gradients on cirrus clouds in the tropical tropopause layer – a satellite-based view. Atmos. Chem. Phys., 20, 12499–12514, https://doi.org/10.5194/acp-20-12499-2020.\n\n\nChang, K.-W., and T. S. L’Ecuyer, 2019: Role of latent heating vertical distribution in the formation of the tropical cold trap. J. Geophys. Res. Atmos., 124, 7836–7851, https://doi.org/10.1029/2018JD030194.\n\n\nDzambo, A. M., M. H. Hitchman, and K.-W. Chang, 2019: The influence of gravity waves on ice saturation in the tropical tropopause layer over Darwin, Australia. Atmosphere, 10, 778, https://doi.org/10.3390/atmos10120778.\n\n\nChang, K.-W., T. S. L’Ecuyer, B. H. Kahn, and V. Natraj, 2017: Information content of visible and midinfrared radiances for retrieving tropical ice cloud properties. J. Geophys. Res. Atmos., 122, 4944–4966, https://doi.org/10.1002/2016JD026357."
+  }
+]

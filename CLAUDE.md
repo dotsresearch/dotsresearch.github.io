@@ -15,6 +15,7 @@ Published at <https://pauselab.github.io> from the `gh-pages` branch.
 ├── _en/              English project  (_en/_quarto.yml, lang: en)      -> _site/en/
 ├── images/           shared images    (root only — never duplicated into _en/)
 │   ├── gallery/      gallery figures
+│   ├── tools/        screenshots of live tools
 │   └── people/       member photos
 ├── styles.scss       shared SCSS theme (root only)
 ├── publications.bib  shared bibliography (root only)
@@ -178,6 +179,18 @@ from the home pages on request. Do not add one back unless asked.
 The grid is plain CSS with `auto-fill` — it reflows on its own, and there is
 no glob, listing, or R/Python dependency to keep working.
 
+**A live tool** — a `.tool-card` in `research.qmd` *and* `_en/research.qmd`:
+a screenshot, `.tool-name`, `.tool-desc`, and a `.tool-link` pill pointing at
+the running app. Screenshots go in `images/tools/`. The card is stacked, not
+two-column, so it degrades to a text-only card while the screenshot is still
+missing — which is why both `<a><img>` lines currently sit commented out.
+
+The ATMS card points at a **bare IP with a self-signed certificate**
+(`https://140.137.32.73:8050/`), so visitors get a browser interstitial
+before the app loads. Replacing it with a real hostname is one URL edit per
+language file — four occurrences total, two of them inside the commented-out
+`<img>` links.
+
 **A research theme** — add a `##` section to `research.qmd` and
 `_en/research.qmd`, and a matching `.research-card` on both home pages.
 
@@ -213,7 +226,8 @@ Deliberately flat: no shadows, no gradients, hairline borders, one accent
 colour. Component classes: `.hero`, `.card-grid` + `.research-card`,
 `.people-grid` + `.person-card` (with `.person-photo`, `.person-name`,
 `.person-role`, `.person-edu`, `.person-links`, `.person-bio`),
-`.gallery-grid` + `.gallery-item`.
+`.gallery-grid` + `.gallery-item`, `.tool-card` (with `.tool-shot`,
+`.tool-name`, `.tool-desc`, `.tool-link`).
 
 `.people-grid` deliberately uses `auto-fit` with a **capped** max track
 (`minmax(min(260px, 100%), 330px)`), not `auto-fill` with `1fr`. `auto-fill`

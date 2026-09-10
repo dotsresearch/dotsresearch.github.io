@@ -24,6 +24,25 @@ title: "Research"
 
 [TODO: description]
 
+<!-- Live-tool card. Put the screenshot in images/tools/ at the repo root and
+     uncomment the <a><img> line below. If the URL changes to a real hostname,
+     it is one edit here and one in ../research.qmd. -->
+::: {.tool-card}
+<!-- Uncomment once a screenshot exists: <a href="https://140.137.32.73:8050/" target="_blank" rel="noopener"><img src="/images/tools/atms-retrievals.png" class="tool-shot" alt="ATMS retrieval monitor interface"></a> -->
+
+::: {.tool-name}
+ATMS retrievals
+:::
+::: {.tool-desc}
+[TODO: tool description — retrieved quantities, input data, update cadence]
+
+Live LightGBM retrievals over East Asia (100–140°E, 10–50°N), compared against MiRS where available.
+:::
+[Open the tool](https://140.137.32.73:8050/){.tool-link target="_blank" rel="noopener"}
+:::
+
+[TODO: no screenshot yet — add one to images/tools/]
+
 ## Funding
 
 [TODO: grants and funding sources]

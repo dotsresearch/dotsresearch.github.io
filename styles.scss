@@ -230,6 +230,60 @@ main a:not(.btn):hover { border-bottom-color: $accent; }
 .person-card .person-links a { text-decoration: none; }
 .person-card .person-links a:hover { text-decoration: underline; }
 
+// --- Live tools -------------------------------------------------------
+// A link out to a running web app, with a screenshot above it. Stacked
+// rather than a two-column grid on purpose: a lab tool ships before its
+// screenshot does, and a missing .tool-shot then degrades to a plain text
+// card instead of leaving an empty column.
+.tool-card {
+  border: 1px solid $rule;
+  border-left: 3px solid $accent;
+  border-radius: $border-radius;
+  padding: 1.25rem 1.4rem;
+  margin: 1.75rem 0;
+  background: $paper;
+  max-width: 44rem;
+}
+.tool-card .tool-shot {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 1px solid $rule;
+  border-radius: $border-radius;
+  background: $paper-alt;
+  margin-bottom: 1.1rem;
+}
+.tool-card .tool-name {
+  font-weight: 600;
+  font-size: 1.02rem;
+  line-height: 1.35;
+}
+.tool-card .tool-desc {
+  font-size: 0.9rem;
+  color: $ink-muted;
+  line-height: 1.65;
+  margin-top: 0.4rem;
+}
+.tool-card .tool-desc p:last-child { margin-bottom: 0; }
+// Pill, not a Bootstrap .btn — so the global `main a` underline rule has to
+// be overridden here, and it is: two classes beat `main a:not(.btn)`.
+.tool-card .tool-link {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.35rem 0.95rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border: 1px solid $accent;
+  border-radius: 999px;
+  color: $accent-dark;
+  text-decoration: none;
+}
+.tool-card .tool-link:hover {
+  background: $accent;
+  border-color: $accent;
+  color: #fff;
+}
+
 // --- Gallery ----------------------------------------------------------
 .gallery-grid {
   display: grid;

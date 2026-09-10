@@ -24,6 +24,24 @@ title: "研究"
 
 [TODO: 研究說明]
 
+<!-- 線上工具卡片。擷取畫面請放入 images/tools/，並將下方 <a><img> 那一行
+     取消註解。網址若改為正式網域，這裡與 _en/research.qmd 各改一處即可。 -->
+::: {.tool-card}
+<!-- 擷取畫面就緒後取消註解：<a href="https://140.137.32.73:8050/" target="_blank" rel="noopener"><img src="/images/tools/atms-retrievals.png" class="tool-shot" alt="ATMS 微波反演即時監看介面"></a> -->
+
+::: {.tool-name}
+ATMS 微波反演即時監看
+:::
+::: {.tool-desc}
+[TODO: 工具說明——反演的物理量、資料來源與更新頻率]
+
+東亞地區（100–140°E、10–50°N）的 ATMS 反演結果，以 LightGBM 即時運算，並在可取得時與 MiRS 產品比對。
+:::
+[開啟工具](https://140.137.32.73:8050/){.tool-link target="_blank" rel="noopener"}
+:::
+
+[TODO: 擷取畫面尚未加入，請將圖檔放入 images/tools/]
+
 ## 研究資助
 
 [TODO: 計畫與經費來源]

@@ -1,0 +1,24 @@
+---
+title: "圖庫"
+page-layout: full
+---
+
+<!-- 新增圖片：
+     1. 將圖檔放入 images/gallery/
+     2. 複製下方一個 <figure class="gallery-item"> 區塊並修改
+     3. 英文版 _en/gallery.qmd 也要同步新增（圖檔共用，不需複製檔案） -->
+
+[TODO: 圖庫說明文字]
+
+::: {.gallery-grid}
+
+<!-- 範本 — 複製並取消註解：
+<figure class="gallery-item">
+  <img src="/images/gallery/example.png" alt="[TODO: 替代文字]">
+  <figcaption>[TODO: 圖說]</figcaption>
+</figure>
+-->
+
+:::
+
+[TODO: 尚未加入圖片，請將圖檔放入 images/gallery/]

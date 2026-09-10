@@ -1,0 +1,12 @@
+---
+title: "論文著作"
+bibliography: publications.bib
+csl: pause-lab.csl
+nocite: '@*'
+---
+
+<!-- 本頁自動列出 publications.bib 內的所有條目（nocite: '@*'）。
+     新增論文：只需在 publications.bib 加入 BibTeX 條目，不需修改本檔。 -->
+
+::: {#refs}
+:::

@@ -1,0 +1,12 @@
+---
+title: "Publications"
+bibliography: ../publications.bib
+csl: ../pause-lab.csl
+nocite: '@*'
+---
+
+<!-- This page lists every entry in ../publications.bib via nocite: '@*'.
+     To add a paper, add a BibTeX entry to that file — do not edit this page. -->
+
+::: {#refs}
+:::

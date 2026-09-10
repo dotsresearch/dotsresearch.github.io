@@ -1,0 +1,40 @@
+# English project. Renders to ../_site/en/
+# Shared assets (styles.scss, publications.bib, images/) live in the repo
+# root and are NOT duplicated here — see CLAUDE.md.
+project:
+  type: website
+  output-dir: ../_site/en
+
+website:
+  title: "PAUSE Lab"
+  site-url: "https://pauselab.github.io/en"
+  repo-url: "https://github.com/pauselab/pauselab.github.io"
+  navbar:
+    title: "PAUSE Lab"
+    left:
+      - href: index.qmd
+        text: "Home"
+      - href: research.qmd
+        text: "Research"
+      - href: people.qmd
+        text: "People"
+      - href: publications.qmd
+        text: "Publications"
+      - href: gallery.qmd
+        text: "Gallery"
+    right:
+      # Language toggle back to the Chinese site. MUST be ../ and not / —
+      # Quarto resolves / against THIS project's root (/en/), so a plain /
+      # would link the English site back to itself. See CLAUDE.md.
+      - href: ../
+        text: "中文"
+  page-footer:
+    left: "© 2026 PAUSE Lab · Chinese Culture University"
+    right: "Processes At the UTLS and Satellite Exploration"
+
+lang: en
+
+format:
+  html:
+    theme: [cosmo, ../styles.scss]
+    toc: false

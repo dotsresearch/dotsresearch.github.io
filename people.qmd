@@ -1,0 +1,50 @@
+---
+title: "成員"
+---
+
+<!-- 新增成員：複製一個 .person-card 區塊，並將照片放到 images/people/。
+     英文版 _en/people.qmd 也要同步新增對應的一位。
+     若尚無照片，將 <img> 那一行刪除或註解即可。 -->
+
+## 主持人
+
+::: {.people-grid}
+::: {.person-card}
+<!-- 照片就緒後取消註解：<img src="/images/people/kai-wei-chang.jpg" class="person-photo" alt="張凱威"> -->
+
+::: {.person-name}
+張凱威 Kai-Wei Chang
+:::
+::: {.person-role}
+專任助理教授
+:::
+::: {.person-edu}
+- 2019　University of Wisconsin–Madison, Atmospheric and Oceanic Sciences, PhD
+- 2013　國立中央大學 遙測科技碩士學位學程 碩士
+- 2011　國立中央大學 大氣科學學系太空組 學士
+:::
+::: {.person-links}
+[個人網站](https://kwchang-atmo.owlstown.net/) · [Google Scholar](https://scholar.google.com/citations?user=7ZGxKSAAAAAJ&hl=en)
+:::
+:::
+:::
+
+## 研究助理
+
+::: {.people-grid}
+::: {.person-card}
+<!-- 照片就緒後取消註解：<img src="/images/people/chia-hui-chung.jpg" class="person-photo" alt="鍾佳慧"> -->
+
+::: {.person-name}
+鍾佳慧
+:::
+::: {.person-role}
+專任研究助理
+:::
+::: {.person-edu}
+- 國立臺灣師範大學 地球科學學系 碩士
+- 中國文化大學 大氣科學系 學士
+:::
+:::
+:::
+

@@ -1,0 +1,279 @@
+/*-- scss:defaults --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;700&display=swap');
+
+// ---------------------------------------------------------------------
+// PAUSE Lab palette — atmospheric: slate ink, near-white paper,
+// a single teal accent standing in for the sky/UTLS.
+// ---------------------------------------------------------------------
+$ink:         #1b2a3a;
+$ink-muted:   #5f7183;
+$paper:       #ffffff;
+$paper-alt:   #f4f7f9;
+$accent:      #2b7a9b;
+$accent-dark: #1d5872;
+$rule:        #e3e9ee;
+
+$primary:           $accent;
+$body-color:        $ink;
+$body-bg:           $paper;
+$link-color:        $accent-dark;
+$link-hover-color:  $accent;
+
+$font-family-sans-serif: "Inter", "Noto Sans TC", -apple-system, BlinkMacSystemFont,
+  "Segoe UI", "PingFang TC", "Microsoft JhengHei", "Heiti TC", sans-serif;
+$font-size-root:      17px;
+$headings-font-weight: 600;
+$headings-color:       $ink;
+$border-radius:        4px;
+
+// Flat navbar — no gradient, no shadow
+$navbar-bg:                 $paper;
+$navbar-light-color:        $ink-muted;
+$navbar-light-hover-color:  $accent;
+$navbar-light-active-color: $accent-dark;
+$navbar-light-brand-color:  $ink;
+
+/*-- scss:rules --*/
+
+body {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+// --- Navbar -----------------------------------------------------------
+.navbar {
+  border-bottom: 1px solid $rule;
+  box-shadow: none !important;
+  padding-block: 0.6rem;
+}
+.navbar .navbar-brand {
+  font-weight: 700;
+  letter-spacing: -0.015em;
+}
+.navbar .nav-link {
+  font-weight: 500;
+  font-size: 0.95rem;
+  padding-inline: 0.8rem !important;
+}
+
+// Language toggle: the only navbar item pointing out of this language
+// tree, so it is targeted by href rather than by a class (Quarto navbar
+// items take no custom classes). See CLAUDE.md.
+.navbar a.nav-link[href$="/en/"],
+.navbar a.nav-link[href$="/../"] {
+  border: 1px solid $rule;
+  border-radius: 999px;
+  padding: 0.15rem 0.75rem !important;
+  margin-left: 0.5rem;
+  font-size: 0.82rem;
+  letter-spacing: 0.05em;
+  color: $ink-muted;
+}
+.navbar a.nav-link[href$="/en/"]:hover,
+.navbar a.nav-link[href$="/../"]:hover {
+  border-color: $accent;
+  background: $paper-alt;
+  color: $accent-dark;
+}
+
+// --- Typography -------------------------------------------------------
+h1, h2, h3, h4 { letter-spacing: -0.015em; }
+h1.title { font-size: 2.05rem; font-weight: 700; margin-bottom: 0.35rem; }
+main h2 {
+  font-size: 1.3rem;
+  margin-top: 2.6rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 1px solid $rule;
+}
+main h3 { font-size: 1.05rem; margin-top: 1.7rem; }
+main p, main li { line-height: 1.75; }
+
+main a:not(.btn) {
+  text-decoration: none;
+  border-bottom: 1px solid rgba($accent, 0.35);
+}
+main a:not(.btn):hover { border-bottom-color: $accent; }
+
+// --- Home hero --------------------------------------------------------
+.hero {
+  padding: 2.75rem 0 2.25rem;
+  border-bottom: 1px solid $rule;
+  margin-bottom: 1rem;
+}
+.hero .hero-eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: $accent;
+  margin-bottom: 0.6rem;
+}
+.hero h1 {
+  font-size: 2.3rem;
+  font-weight: 700;
+  line-height: 1.25;
+  margin: 0 0 0.4rem;
+}
+.hero .hero-name-en {
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: $ink-muted;
+  margin-bottom: 1.1rem;
+}
+.hero .hero-sub {
+  font-size: 1.05rem;
+  color: $ink-muted;
+  max-width: 44rem;
+  line-height: 1.7;
+  margin-bottom: 0;
+}
+.hero .hero-affil {
+  margin-top: 1.3rem;
+  font-size: 0.9rem;
+  color: $ink-muted;
+}
+
+// --- Card grids -------------------------------------------------------
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.25rem;
+  margin: 1.75rem 0;
+}
+.research-card {
+  border: 1px solid $rule;
+  border-left: 3px solid $accent;
+  border-radius: $border-radius;
+  padding: 1.1rem 1.25rem;
+  background: $paper;
+}
+.research-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.45rem;
+  font-size: 1rem;
+}
+.research-card p {
+  font-size: 0.9rem;
+  color: $ink-muted;
+  margin-bottom: 0;
+  line-height: 1.65;
+}
+
+// --- People -----------------------------------------------------------
+// auto-FIT, not auto-fill: auto-fill keeps empty phantom tracks, which pins a
+// lone card (the PI) to one narrow column and wraps every degree line to
+// shreds. The max track is capped rather than 1fr so a single card stops at a
+// sane width instead of stretching across the whole page; min(...) lets it
+// shrink below the floor on a phone rather than overflow.
+.people-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(260px, 100%), 330px));
+  justify-content: start;
+  gap: 1.75rem;
+  margin: 1.5rem 0 2.5rem;
+}
+.person-card .person-photo {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 6px;
+  background: $paper-alt;
+  border: 1px solid $rule;
+  margin-bottom: 0.8rem;
+  display: block;
+}
+// CJK breaks between any two characters by default, so an institution name
+// splits mid-word at these widths. keep-all confines breaks to the spaces
+// written into the name; break-word is the escape hatch for a long English
+// token. Not applied to .person-bio, where running Chinese prose does need
+// to break anywhere.
+.person-card .person-name,
+.person-card .person-role,
+.person-card .person-edu {
+  word-break: keep-all;
+  overflow-wrap: break-word;
+}
+.person-card .person-name { font-weight: 600; line-height: 1.35; }
+.person-card .person-role {
+  font-size: 0.82rem;
+  color: $accent;
+  margin-top: 0.15rem;
+}
+.person-card .person-bio {
+  font-size: 0.87rem;
+  color: $ink-muted;
+  margin-top: 0.45rem;
+  line-height: 1.6;
+}
+// Degree list: year, institution, department, one entry per line. Rendered as
+// a plain <ul> by Pandoc, so bullets and the default indent are stripped here.
+.person-card .person-edu ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0.55rem 0 0;
+}
+// Hanging indent: an entry that wraps continues under its text, not under its
+// year, so the year column stays readable down the left edge.
+.person-card .person-edu li {
+  font-size: 0.82rem;
+  color: $ink-muted;
+  line-height: 1.55;
+  margin-bottom: 0.4rem;
+  padding-left: 3.1em;
+  text-indent: -3.1em;
+}
+.person-card .person-links {
+  font-size: 0.82rem;
+  margin-top: 0.55rem;
+}
+.person-card .person-links a { text-decoration: none; }
+.person-card .person-links a:hover { text-decoration: underline; }
+
+// --- Gallery ----------------------------------------------------------
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+.gallery-item {
+  margin: 0;
+  border: 1px solid $rule;
+  border-radius: $border-radius;
+  overflow: hidden;
+  background: $paper;
+}
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  background: $paper-alt;
+}
+.gallery-item figcaption {
+  font-size: 0.85rem;
+  color: $ink-muted;
+  padding: 0.8rem 0.95rem;
+  line-height: 1.55;
+}
+
+// --- Footer -----------------------------------------------------------
+.nav-footer {
+  border-top: 1px solid $rule;
+  margin-top: 4rem;
+  font-size: 0.85rem;
+  color: $ink-muted;
+}
+
+// --- Wide (page-layout: full) pages -----------------------------------
+// Used by the home page and the gallery. Cap the container so content
+// does not sprawl on large monitors, but let grids use the full width
+// while plain prose stays at a readable measure.
+.page-layout-full main.content {
+  max-width: 1080px;
+  margin-inline: auto;
+}
+.page-layout-full main.content > p,
+.page-layout-full main.content > section > p {
+  max-width: 44rem;
+}

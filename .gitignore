@@ -1,0 +1,12 @@
+# Quarto build output
+_site/
+.quarto/
+_en/.quarto/
+
+# Quarto publish record is intentionally committed (_publish.yml)
+
+.DS_Store
+Thumbs.db
+
+/.quarto/
+**/*.quarto_ipynb

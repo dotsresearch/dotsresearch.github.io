@@ -1,0 +1,75 @@
+---
+title: "People"
+---
+
+<!-- To add a person: copy a .person-card block and put the photo in
+     images/people/ at the repo root. Add the matching person to
+     ../people.qmd as well. Delete or comment out the <img> line if there
+     is no photo. -->
+
+## Principal investigator
+
+::: {.people-grid}
+::: {.person-card}
+<!-- Uncomment once a photo exists: <img src="/images/people/kai-wei-chang.jpg" class="person-photo" alt="Kai-Wei Chang"> -->
+
+::: {.person-name}
+Kai-Wei Chang 張凱威
+:::
+::: {.person-role}
+Assistant Professor
+:::
+::: {.person-edu}
+- 2019　PhD, Atmospheric and Oceanic Sciences, University of Wisconsin–Madison
+- 2013　MS, Master Program in Remote Sensing Science and Technology, National Central University
+- 2011　BS, Department of Atmospheric Sciences (Space Science Division), National Central University
+:::
+::: {.person-links}
+[Personal website](https://kwchang-atmo.owlstown.net/) · [Google Scholar](https://scholar.google.com/citations?user=7ZGxKSAAAAAJ&hl=en)
+:::
+:::
+:::
+
+## Research staff
+
+::: {.people-grid}
+::: {.person-card}
+<!-- Uncomment once a photo exists: <img src="/images/people/chia-hui-chung.jpg" class="person-photo" alt="C.-H. Chung"> -->
+
+::: {.person-name}
+<!-- TODO: confirm full English given name; "C.-H." is taken from the manuscript author list -->
+C.-H. Chung 鍾佳慧
+:::
+::: {.person-role}
+Research Assistant
+:::
+::: {.person-edu}
+- MS, Department of Earth Sciences, National Taiwan Normal University
+- BS, Department of Atmospheric Sciences, Chinese Culture University
+:::
+:::
+:::
+
+## Graduate students
+
+::: {.people-grid}
+::: {.person-card}
+::: {.person-name}
+[TODO: name]
+:::
+::: {.person-role}
+[TODO: degree / year]
+:::
+::: {.person-bio}
+[TODO: research topic]
+:::
+:::
+:::
+
+## Undergraduate researchers
+
+[TODO: undergraduate members]
+
+## Alumni
+
+[TODO: alumni list]

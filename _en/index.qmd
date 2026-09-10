@@ -1,0 +1,63 @@
+---
+pagetitle: "Processes At the UTLS and Satellite Exploration"
+page-layout: full
+---
+
+::: {.hero}
+::: {.hero-eyebrow}
+PAUSE Lab · Chinese Culture University
+:::
+
+# Processes At the UTLS and Satellite Exploration {.hero-title}
+
+::: {.hero-name-en}
+對流層頂過程與衛星探測實驗室
+:::
+
+::: {.hero-sub}
+[TODO: one- or two-sentence lab mission statement]
+:::
+
+::: {.hero-affil}
+Chinese Culture University · Taiwan · PI: Kai-Wei Chang
+:::
+:::
+
+## Research
+
+We study dynamics and transport in the upper troposphere and lower
+stratosphere (UTLS), and develop satellite-based methods for observing them.
+
+::: {.card-grid}
+::: {.research-card}
+### Stratosphere–troposphere exchange
+
+[TODO: short description]
+:::
+
+::: {.research-card}
+### Tropopause folds
+
+[TODO: short description]
+:::
+
+::: {.research-card}
+### UTLS processes
+
+[TODO: short description]
+:::
+
+::: {.research-card}
+### Trajectory modeling
+
+[TODO: short description]
+:::
+
+::: {.research-card}
+### Microwave satellite retrievals
+
+[TODO: short description]
+:::
+:::
+
+[Read more about our research](research.qmd)

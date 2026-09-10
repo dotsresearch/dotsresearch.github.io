@@ -1,0 +1,29 @@
+---
+title: "Research"
+---
+
+[TODO: overview paragraph]
+
+## Stratosphere–troposphere exchange (STE)
+
+[TODO: description]
+
+## Tropopause folds
+
+[TODO: description]
+
+## UTLS processes
+
+[TODO: description]
+
+## Trajectory modeling
+
+[TODO: description]
+
+## Microwave satellite retrievals
+
+[TODO: description]
+
+## Funding
+
+[TODO: grants and funding sources]

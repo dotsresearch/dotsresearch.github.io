@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" default-locale="en-US" demote-non-dropping-particle="sort-only">
+  <info>
+    <title>PAUSE Lab (AMS, reverse chronological)</title>
+    <id>https://pauselab.github.io/pause-lab.csl</id>
+    <link href="https://pauselab.github.io/pause-lab.csl" rel="self"/>
+    <author>
+      <name>PAUSE Lab</name>
+    </author>
+    <category citation-format="author-date"/>
+    <summary>American Meteorological Society reference format, with two
+    changes for a lab publications page: the bibliography is sorted newest
+    first rather than alphabetically, and submitted work (@unpublished) sorts
+    above published work of the same year and prints its note field in place
+    of the journal. Each reference ends in its DOI, rendered as a single
+    hyperlink over the full https://doi.org/ URL.</summary>
+    <updated>2026-09-10T00:00:00+00:00</updated>
+  </info>
+
+  <!-- AMS uses "and Coauthors" rather than "et al." in the reference list.
+       This <locale> block carries no xml:lang on purpose: it applies to every
+       locale, so the Chinese page renders these English-language references
+       identically to the English page instead of substituting 和 and 等. -->
+  <locale>
+    <terms>
+      <term name="et-al">and Coauthors</term>
+      <term name="and">and</term>
+      <!-- Without this the Chinese page renders page ranges as 2941～2956. -->
+      <term name="page-range-delimiter">–</term>
+    </terms>
+  </locale>
+
+  <macro name="author">
+    <names variable="author">
+      <name and="text" delimiter=", " delimiter-precedes-last="always"
+            initialize-with=". " name-as-sort-order="first"
+            et-al-min="7" et-al-use-first="1" delimiter-precedes-et-al="always"/>
+      <et-al term="et-al"/>
+      <substitute>
+        <names variable="editor"/>
+        <text variable="title"/>
+      </substitute>
+    </names>
+  </macro>
+
+  <macro name="author-short">
+    <names variable="author">
+      <name form="short" and="text" delimiter=", " et-al-min="3" et-al-use-first="1"/>
+      <et-al term="et-al"/>
+      <substitute>
+        <names variable="editor"/>
+        <text variable="title" form="short"/>
+      </substitute>
+    </names>
+  </macro>
+
+  <macro name="year">
+    <choose>
+      <if variable="issued">
+        <date variable="issued">
+          <date-part name="year"/>
+        </date>
+      </if>
+      <else>
+        <text term="no date" form="short"/>
+      </else>
+    </choose>
+  </macro>
+
+  <!-- Sort key: submitted work (0) above published work (1) within a year. -->
+  <macro name="submitted-first">
+    <choose>
+      <if type="manuscript">
+        <text value="0"/>
+      </if>
+      <else>
+        <text value="1"/>
+      </else>
+    </choose>
+  </macro>
+
+  <macro name="container">
+    <choose>
+      <!-- Submitted / in-review work: print the note instead of a journal. -->
+      <if type="manuscript">
+        <choose>
+          <if variable="note">
+            <text variable="note"/>
+          </if>
+          <else>
+            <text value="Manuscript in preparation"/>
+          </else>
+        </choose>
+      </if>
+      <!-- AMS journal article: Journal, volume, pages. No issue number. -->
+      <else>
+        <group delimiter=", ">
+          <text variable="container-title" font-style="italic"/>
+          <text variable="volume"/>
+          <text variable="page"/>
+        </group>
+      </else>
+    </choose>
+  </macro>
+
+  <citation et-al-min="3" et-al-use-first="1" disambiguate-add-year-suffix="true">
+    <layout prefix="(" suffix=")" delimiter="; ">
+      <group delimiter=" ">
+        <text macro="author-short"/>
+        <text macro="year"/>
+      </group>
+    </layout>
+  </citation>
+
+  <bibliography hanging-indent="true" entry-spacing="1" line-spacing="1">
+    <sort>
+      <key variable="issued" sort="descending"/>
+      <key macro="submitted-first"/>
+      <key macro="author"/>
+    </sort>
+    <layout suffix=".">
+      <text macro="author"/>
+      <text macro="year" prefix=", " suffix=": "/>
+      <text variable="title"/>
+      <text macro="container" prefix=". "/>
+      <!-- AMS prints the DOI as a full https://doi.org/ URL. This uses the
+           URL variable, not DOI, on purpose: pandoc hyperlinks whatever this
+           renders, so URL yields one clean link over the whole string, while
+           DOI with a "https://doi.org/" prefix would leave the prefix outside
+           the anchor and underline only the tail. Entries carry both fields;
+           if url is ever missing, pandoc falls back to linking the title. -->
+      <text variable="URL" prefix=", "/>
+    </layout>
+  </bibliography>
+</style>

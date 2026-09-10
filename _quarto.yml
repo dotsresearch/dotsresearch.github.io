@@ -1,0 +1,62 @@
+# Chinese (default) project. Renders to _site/
+# The English project lives in _en/ and renders to _site/en/ — see CLAUDE.md.
+project:
+  type: website
+  output-dir: _site
+  resources:
+    - images/
+
+website:
+  title: "PAUSE Lab"
+  site-url: "https://pauselab.github.io"
+  repo-url: "https://github.com/pauselab/pauselab.github.io"
+  navbar:
+    title: "PAUSE Lab"
+    left:
+      - href: index.qmd
+        text: "首頁"
+      - href: research.qmd
+        text: "研究"
+      - href: people.qmd
+        text: "成員"
+      - href: publications.qmd
+        text: "論文"
+      - href: gallery.qmd
+        text: "圖庫"
+    right:
+      # Language toggle. Quarto rewrites this to ./en/ at render time.
+      - href: /en/
+        text: "EN"
+  page-footer:
+    left: "© 2026 PAUSE Lab · 中國文化大學"
+    right: "對流層頂過程與衛星探測實驗室"
+
+lang: zh-Hant
+
+# Quarto ships its Traditional Chinese UI strings under the zh-TW locale, but
+# pandoc only knows zh-Hant (using lang: zh-TW makes pandoc warn on every
+# render). So we keep lang: zh-Hant and override the interface strings here,
+# copied from Quarto's own _language-zh-TW.yml. Without this the search box
+# and navbar render in Simplified Chinese ("搜索", "已复制").
+language:
+  search-no-results-text: "沒有結果"
+  search-matching-documents-text: "符合的文件"
+  search-copy-link-title: "複製搜尋連結"
+  search-hide-matches-text: "隱藏其他符合的結果"
+  search-more-match-text: "更多符合結果"
+  search-more-matches-text: "更多符合結果"
+  search-clear-button-title: "清除"
+  search-detached-cancel-button-title: "取消"
+  search-submit-button-title: "送出"
+  search-label: "搜尋"
+  copy-button-tooltip: "複製到剪貼簿"
+  copy-button-tooltip-success: "已複製"
+  back-to-top: "回到頂端"
+  toggle-navigation: "切換導航列"
+  toggle-section: "切換區段"
+  toggle-sidebar: "切換側邊欄導航"
+
+format:
+  html:
+    theme: [cosmo, styles.scss]
+    toc: false

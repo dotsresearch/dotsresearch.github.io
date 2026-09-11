@@ -11,6 +11,7 @@ website:
   repo-url: "https://github.com/pauselab/pauselab.github.io"
   navbar:
     title: "PAUSE Lab"
+    background: dark
     left:
       - href: index.qmd
         text: "Home"

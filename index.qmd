@@ -31,7 +31,7 @@ PAUSE — Processes At the UTLS and Satellite Exploration
 :::
 
 ::: {.research-card}
-### 對流層頂摺曲
+### 對流層頂摺疊
 
 [TODO: 簡短說明]
 :::
@@ -50,4 +50,4 @@ PAUSE — Processes At the UTLS and Satellite Exploration
 :::
 :::
 
-[閱讀更多研究內容](research.qmd)
+[閱讀更多研究內容](research.qmd){.cta-link}

@@ -18,13 +18,16 @@ title: "成員"
 ::: {.person-role}
 專任助理教授
 :::
+::: {.person-exp}
+- 德州農工大學 大氣科學系 博士後研究員
+:::
 ::: {.person-edu}
-- 2019　University of Wisconsin–Madison, Atmospheric and Oceanic Sciences, PhD
-- 2013　國立中央大學 遙測科技碩士學位學程 碩士
-- 2011　國立中央大學 大氣科學學系太空組 學士
+- 威斯康辛大學麥迪遜分校 大氣與海洋科學系 博士
+- 國立中央大學 遙測科技碩士學位學程 碩士
+- 國立中央大學 大氣科學學系太空組 學士
 :::
 ::: {.person-links}
-[個人網站](https://kwchang-atmo.owlstown.net/) · [Google Scholar](https://scholar.google.com/citations?user=7ZGxKSAAAAAJ&hl=en)
+[Google Scholar](https://scholar.google.com/citations?user=7ZGxKSAAAAAJ&hl=en)
 :::
 :::
 :::

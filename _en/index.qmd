@@ -50,4 +50,4 @@ stratosphere (UTLS), and develop satellite-based methods for observing them.
 :::
 :::
 
-[Read more about our research](research.qmd)
+[Read more about our research](research.qmd){.cta-link}

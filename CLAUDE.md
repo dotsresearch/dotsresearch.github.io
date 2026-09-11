@@ -165,6 +165,7 @@ empty 研究生, 大學部專題生 and 畢業與離任成員 sections were deli
 removed rather than left standing empty, so add a heading back when there is
 somebody to put under it — in **both** trees. A card holds, in order: an optional
 `.person-photo` image, `.person-name`, `.person-role`, an optional
+`.person-exp` (prior appointments, newest first), an optional
 `.person-edu` (a plain markdown list, one degree per line, newest first), an
 optional `.person-links`, and an optional `.person-bio`.
 
@@ -223,17 +224,23 @@ only the initials `C.-H.` are confirmed, from the manuscript author list.
 
 `styles.scss` is a Bootstrap `cosmo` override with a `scss:defaults` block
 (palette, type scale, navbar variables) and a `scss:rules` block (component
-styles). Palette: slate ink `#1b2a3a`, muted `#5f7183`, teal accent
-`#2b7a9b`, hairline rule `#e3e9ee`. Type: Inter + Noto Sans TC from Google
-Fonts, imported at the top of `scss:defaults` — Noto Sans TC is what makes
-the Chinese pages render properly, so keep it in the stack.
+styles). Palette: dusk `#0d1b2e` (navbar, footer, top of the home hero),
+slate ink `#1b2a3a`, muted `#5f7183`, tropopause teal `#2b8aa8`, spare
+sunrise gold `#d4a054` (hero eyebrow, 3px horizon, language-toggle hover —
+never body-link colour), cool paper `#f3f7fa` with white cards. Type:
+Inter + Noto Sans TC from Google Fonts, imported at the top of
+`scss:defaults` — Noto Sans TC is what makes the Chinese pages render
+properly, so keep it in the stack.
 
-Deliberately flat: no shadows, no gradients, hairline borders, one accent
-colour. Component classes: `.hero`, `.card-grid` + `.research-card`,
-`.people-grid` + `.person-card` (with `.person-photo`, `.person-name`,
-`.person-role`, `.person-edu`, `.person-links`, `.person-bio`),
-`.gallery-grid` + `.gallery-item`, `.tool-card` (with `.tool-shot`,
-`.tool-name`, `.tool-desc`, `.tool-link`).
+Atmospheric rather than flat: the home hero is a dusk-to-teal CSS gradient
+(no image), navbar and footer are dusk bookends, and cards may use a soft
+hover lift. No heavy drop shadows. Gold is decoration only. Both
+`_quarto.yml` files set `navbar.background: dark` so search and the
+hamburger stay light on dusk. Component classes: `.hero`, `.card-grid` +
+`.research-card`, `.people-grid` + `.person-card` (with `.person-photo`,
+`.person-name`, `.person-role`, `.person-exp`, `.person-edu`,
+`.person-links`, `.person-bio`), `.gallery-grid` + `.gallery-item`, `.tool-card` (with
+`.tool-shot`, `.tool-name`, `.tool-desc`, `.tool-link`), `.cta-link`.
 
 `.people-grid` deliberately uses `auto-fit` with a **capped** max track
 (`minmax(min(260px, 100%), 330px)`), not `auto-fill` with `1fr`. `auto-fill`

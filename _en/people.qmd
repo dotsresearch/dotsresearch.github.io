@@ -19,13 +19,16 @@ Kai-Wei Chang 張凱威
 ::: {.person-role}
 Assistant Professor
 :::
+::: {.person-exp}
+- Postdoctoral Researcher, Department of Atmospheric Sciences, Texas A&M University
+:::
 ::: {.person-edu}
 - 2019　PhD, Atmospheric and Oceanic Sciences, University of Wisconsin–Madison
 - 2013　MS, Master Program in Remote Sensing Science and Technology, National Central University
 - 2011　BS, Department of Atmospheric Sciences (Space Science Division), National Central University
 :::
 ::: {.person-links}
-[Personal website](https://kwchang-atmo.owlstown.net/) · [Google Scholar](https://scholar.google.com/citations?user=7ZGxKSAAAAAJ&hl=en)
+[Google Scholar](https://scholar.google.com/citations?user=7ZGxKSAAAAAJ&hl=en)
 :::
 :::
 :::

@@ -243,13 +243,14 @@ hamburger stay light on dusk. Component classes: `.hero`, `.card-grid` +
 `.tool-shot`, `.tool-name`, `.tool-desc`, `.tool-link`), `.cta-link`.
 
 `.people-grid` deliberately uses `auto-fit` with a **capped** max track
-(`minmax(min(260px, 100%), 330px)`), not `auto-fill` with `1fr`. `auto-fill`
+(`minmax(min(260px, 100%), 400px)`), not `auto-fill` with `1fr`. `auto-fill`
 keeps empty phantom tracks, which pins a lone card — the PI, alone in a
 section — to one narrow column and shreds the degree lines; an uncapped `1fr`
 swings the other way and stretches a single card across the page. The cards
-also set `word-break: keep-all` on the name, role, and degree list, because
-CSS otherwise breaks Chinese between any two characters and splits an
-institution name mid-word. `.person-bio` is excluded on purpose: running
+also set `word-break: keep-all` on the name, role, experience, and degree
+list, because CSS otherwise breaks Chinese between any two characters and
+splits an institution name mid-word. Glue the degree title (博士, 碩士,
+學士) to the department with `&nbsp;` so it cannot wrap onto its own line. `.person-bio` is excluded on purpose: running
 Chinese prose does need to break anywhere.
 
 Note that a Pandoc fenced div wrapping a heading (`::: {.research-card}` with

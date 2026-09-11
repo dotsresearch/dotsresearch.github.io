@@ -313,7 +313,7 @@ body:has(.hero) #title-block-header {
 // shrink below the floor on a phone rather than overflow.
 .people-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(260px, 100%), 330px));
+  grid-template-columns: repeat(auto-fit, minmax(min(260px, 100%), 400px));
   justify-content: start;
   gap: 1.75rem;
   margin: 1.5rem 0 2.5rem;
@@ -374,14 +374,16 @@ body:has(.hero) #title-block-header {
   padding-left: 0;
   margin: 0.55rem 0 0;
 }
-// Hanging indent: an entry that wraps continues under its text, not under its
-// year, so the year column stays readable down the left edge.
 .person-card .person-exp li,
 .person-card .person-edu li {
   font-size: 0.82rem;
   color: $ink-muted;
   line-height: 1.55;
   margin-bottom: 0.4rem;
+}
+// Hanging indent only on degrees: an entry that wraps continues under its
+// text, not under its year. Experience lines have no year column.
+.person-card .person-edu li {
   padding-left: 3.1em;
   text-indent: -3.1em;
 }

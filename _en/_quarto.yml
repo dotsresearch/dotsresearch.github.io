@@ -6,11 +6,11 @@ project:
   output-dir: ../_site/en
 
 website:
-  title: "PAUSE Lab"
-  site-url: "https://pauselab.github.io/en"
-  repo-url: "https://github.com/pauselab/pauselab.github.io"
+  title: "DOTS Lab"
+  site-url: "https://dotsresearch.github.io/en"
+  repo-url: "https://github.com/dotsresearch/dotsresearch.github.io"
   navbar:
-    title: "PAUSE Lab"
+    title: "DOTS Lab"
     background: dark
     left:
       - href: index.qmd
@@ -30,8 +30,8 @@ website:
       - href: ../
         text: "中文"
   page-footer:
-    left: "© 2026 PAUSE Lab · Chinese Culture University"
-    right: "Processes At the UTLS and Satellite Exploration"
+    left: "© 2026 DOTS Lab · Chinese Culture University"
+    right: "Dynamics and Observations: Tropopause and Satellites"
 
 lang: en
 

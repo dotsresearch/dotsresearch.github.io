@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" default-locale="en-US" demote-non-dropping-particle="sort-only">
   <info>
-    <title>PAUSE Lab (AMS, reverse chronological)</title>
-    <id>https://pauselab.github.io/pause-lab.csl</id>
-    <link href="https://pauselab.github.io/pause-lab.csl" rel="self"/>
+    <title>DOTS Lab (AMS, reverse chronological)</title>
+    <id>https://dotsresearch.github.io/dots-lab.csl</id>
+    <link href="https://dotsresearch.github.io/dots-lab.csl" rel="self"/>
     <author>
-      <name>PAUSE Lab</name>
+      <name>DOTS Lab</name>
     </author>
     <category citation-format="author-date"/>
     <summary>American Meteorological Society reference format, with two

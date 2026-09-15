@@ -1,17 +1,17 @@
 ---
-pagetitle: "對流層頂過程與衛星探測實驗室"
+pagetitle: "對流層頂與衛星探測實驗室"
 page-layout: full
 ---
 
 ::: {.hero}
 ::: {.hero-eyebrow}
-PAUSE Lab 
+DOTS Lab 
 :::
 
-# 對流層頂過程與衛星探測實驗室 {.hero-title}
+# 對流層頂與衛星探測實驗室 {.hero-title}
 
 ::: {.hero-name-en}
-PAUSE — Processes At the UTLS and Satellite Exploration
+DOTS — Dynamics and Observations: Tropopause and Satellites
 :::
 
 ::: {.hero-affil}
@@ -21,32 +21,24 @@ PAUSE — Processes At the UTLS and Satellite Exploration
 
 ## 研究方向
 
-我們研究上對流層與下平流層（UTLS）的動力與傳送過程，並發展相關的衛星觀測分析方法。
+我們研究上對流層與下平流層（UTLS）的動力與傳送過程，也發展衛星觀測分析方法。
 
 ::: {.card-grid}
 ::: {.research-card}
 ### 平流層－對流層交換
-
-[TODO: 簡短說明]
 :::
 
 ::: {.research-card}
 ### 對流層頂摺疊
-
-[TODO: 簡短說明]
 :::
 
 ::: {.research-card}
 ### UTLS 過程
-
-[TODO: 簡短說明]
 :::
 
 
 ::: {.research-card}
 ### 微波衛星反演
-
-[TODO: 簡短說明]
 :::
 :::
 

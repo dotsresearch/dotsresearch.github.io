@@ -1,17 +1,17 @@
 ---
-pagetitle: "Processes At the UTLS and Satellite Exploration"
+pagetitle: "Dynamics and Observations: Tropopause and Satellites"
 page-layout: full
 ---
 
 ::: {.hero}
 ::: {.hero-eyebrow}
-PAUSE Lab
+DOTS Lab
 :::
 
-# Processes At the UTLS and Satellite Exploration {.hero-title}
+# Dynamics and Observations: Tropopause and Satellites {.hero-title}
 
 ::: {.hero-name-en}
-對流層頂過程與衛星探測實驗室
+對流層頂與衛星探測實驗室
 :::
 
 ::: {.hero-affil}
@@ -27,26 +27,18 @@ stratosphere (UTLS), and develop satellite-based methods for observing them.
 ::: {.card-grid}
 ::: {.research-card}
 ### Stratosphere–troposphere exchange
-
-[TODO: short description]
 :::
 
 ::: {.research-card}
 ### Tropopause folds
-
-[TODO: short description]
 :::
 
 ::: {.research-card}
 ### UTLS processes
-
-[TODO: short description]
 :::
 
 ::: {.research-card}
 ### Microwave satellite retrievals
-
-[TODO: short description]
 :::
 :::
 

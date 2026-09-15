@@ -1,7 +1,7 @@
-# pauselab.github.io
+# dotsresearch.github.io
 
-Website for **PAUSE Lab** — Processes At the UTLS and Satellite Exploration
-(對流層頂過程與衛星探測實驗室), Chinese Culture University, Taipei.
+Website for **DOTS Lab** — Dynamics and Observations: Tropopause and Satellites
+(對流層頂與衛星探測實驗室), Chinese Culture University, Taipei.
 PI: Kai-Wei Chang (張凱威).
 
 Built with [Quarto](https://quarto.org). Bilingual: Traditional Chinese at

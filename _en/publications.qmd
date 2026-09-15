@@ -1,7 +1,7 @@
 ---
 title: "Publications"
 bibliography: ../publications.bib
-csl: ../pause-lab.csl
+csl: ../dots-lab.csl
 nocite: '@*'
 ---
 

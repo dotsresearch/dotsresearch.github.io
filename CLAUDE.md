@@ -1,10 +1,10 @@
-# CLAUDE.md — PAUSE Lab website
+# CLAUDE.md — DOTS Lab website
 
-Quarto website for **PAUSE Lab** (Processes At the UTLS and Satellite
-Exploration / 對流層頂過程與衛星探測實驗室), an atmospheric science group at
+Quarto website for **DOTS Lab** (Dynamics and Observations: Tropopause and
+Satellites / 對流層頂與衛星探測實驗室), an atmospheric science group at
 Chinese Culture University (PCCU), Taipei, led by Kai-Wei Chang (張凱威).
 
-Published at <https://pauselab.github.io> from the `gh-pages` branch.
+Published at <https://dotsresearch.github.io> from the `gh-pages` branch.
 
 ---
 
@@ -19,7 +19,7 @@ Published at <https://pauselab.github.io> from the `gh-pages` branch.
 │   └── people/       member photos
 ├── styles.scss       shared SCSS theme (root only)
 ├── publications.bib  shared bibliography (root only)
-├── pause-lab.csl     shared citation style (root only)
+├── dots-lab.csl     shared citation style (root only)
 ├── build.ps1 / build.sh
 └── _site/            build output (gitignored)
 ```
@@ -62,13 +62,13 @@ from Quarto's own `_language-zh-TW.yml`.
 
 ## 3. Shared assets — root only
 
-`styles.scss`, `publications.bib`, `pause-lab.csl`, and `images/` exist
+`styles.scss`, `publications.bib`, `dots-lab.csl`, and `images/` exist
 **once**, at the repo root. Never copy them into `_en/`. The English project
 reaches them like this:
 
 - theme → `theme: [cosmo, ../styles.scss]` (relative, in `_en/_quarto.yml`)
 - bibliography → `bibliography: ../publications.bib` (relative)
-- citation style → `csl: ../pause-lab.csl` (relative)
+- citation style → `csl: ../dots-lab.csl` (relative)
 - images → `/images/...` (**site-absolute**, works from both trees)
 
 Only the root `_quarto.yml` has `resources: [images/]`, which is what copies
@@ -264,7 +264,7 @@ Quarto's default article layout.
 
 ## 9. Citation style
 
-`pause-lab.csl` is a hand-written CSL 1.0 style implementing **American
+`dots-lab.csl` is a hand-written CSL 1.0 style implementing **American
 Meteorological Society** reference format, used by both publications pages:
 
 > Chang, K.-W., K. P. Bowman, L. W. Siu, and A. D. Rapp, 2021: Convective
@@ -301,7 +301,7 @@ References are English regardless of page language, but citeproc follows the
 document's `lang`, so the Chinese page will quietly diverge unless two things
 hold:
 
-- The `<locale>` block in `pause-lab.csl` has **no `xml:lang` attribute**, so
+- The `<locale>` block in `dots-lab.csl` has **no `xml:lang` attribute**, so
   its terms apply to every locale. Without it the Chinese page renders 和 for
   "and", 等 for "and Coauthors", and `2941～2956` for page ranges.
 - **Titles in `publications.bib` are stored in sentence case already**, with

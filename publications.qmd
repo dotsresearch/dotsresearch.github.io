@@ -1,7 +1,7 @@
 ---
 title: "論文著作"
 bibliography: publications.bib
-csl: pause-lab.csl
+csl: dots-lab.csl
 nocite: '@*'
 ---
 

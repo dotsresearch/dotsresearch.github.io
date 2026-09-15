@@ -7,11 +7,11 @@ project:
     - images/
 
 website:
-  title: "PAUSE Lab"
-  site-url: "https://pauselab.github.io"
-  repo-url: "https://github.com/pauselab/pauselab.github.io"
+  title: "DOTS Lab"
+  site-url: "https://dotsresearch.github.io"
+  repo-url: "https://github.com/dotsresearch/dotsresearch.github.io"
   navbar:
-    title: "PAUSE Lab"
+    title: "DOTS Lab"
     background: dark
     left:
       - href: index.qmd
@@ -29,8 +29,8 @@ website:
       - href: /en/
         text: "EN"
   page-footer:
-    left: "© 2026 PAUSE Lab · 中國文化大學"
-    right: "對流層頂過程與衛星探測實驗室"
+    left: "© 2026 DOTS Lab · 中國文化大學"
+    right: "對流層頂與衛星探測實驗室"
 
 lang: zh-Hant
 

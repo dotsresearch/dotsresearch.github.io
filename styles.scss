@@ -455,34 +455,6 @@ body:has(.hero) #title-block-header {
   color: #fff;
 }
 
-// --- Gallery ----------------------------------------------------------
-.gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-  gap: 1.5rem;
-  margin: 2rem 0;
-}
-.gallery-item {
-  margin: 0;
-  border: 1px solid $rule;
-  border-radius: $border-radius;
-  overflow: hidden;
-  background: $paper-card;
-}
-.gallery-item img {
-  width: 100%;
-  height: auto;
-  display: block;
-  background: $sky-wash;
-}
-.gallery-item figcaption {
-  font-size: 0.85rem;
-  color: $ink-muted;
-  padding: 0.8rem 0.95rem;
-  line-height: 1.55;
-  background: $sky-wash;
-}
-
 // --- Publications -----------------------------------------------------
 // Spacing only — citation strings come from dots-lab.csl and must not
 // be restyled into a different format.
@@ -516,7 +488,7 @@ body:has(.hero) #title-block-header {
 }
 
 // --- Wide (page-layout: full) pages -----------------------------------
-// Used by the home page and the gallery. Cap the container so content
+// Used by the home page. Cap the container so content
 // does not sprawl on large monitors, but let grids use the full width
 // while plain prose stays at a readable measure.
 .page-layout-full main.content {

@@ -37,4 +37,4 @@ quarto publish gh-pages --no-render
 ```
 
 See `CLAUDE.md` for site structure, the bilingual rule, and how to add
-publications, people, news, and gallery figures.
+publications, people, and research.

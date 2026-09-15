@@ -22,8 +22,6 @@ website:
         text: "成員"
       - href: publications.qmd
         text: "論文"
-      - href: gallery.qmd
-        text: "圖庫"
     right:
       # Language toggle. Quarto rewrites this to ./en/ at render time.
       - href: /en/

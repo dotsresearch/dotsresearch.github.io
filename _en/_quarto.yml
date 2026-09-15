@@ -21,8 +21,6 @@ website:
         text: "People"
       - href: publications.qmd
         text: "Publications"
-      - href: gallery.qmd
-        text: "Gallery"
     right:
       # Language toggle back to the Chinese site. MUST be ../ and not / —
       # Quarto resolves / against THIS project's root (/en/), so a plain /

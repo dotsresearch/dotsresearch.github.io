@@ -14,7 +14,6 @@ Published at <https://dotsresearch.github.io> from the `gh-pages` branch.
 .                     Chinese project  (_quarto.yml,     lang: zh-Hant) -> _site/
 ├── _en/              English project  (_en/_quarto.yml, lang: en)      -> _site/en/
 ├── images/           shared images    (root only — never duplicated into _en/)
-│   ├── gallery/      gallery figures
 │   ├── tools/        screenshots of live tools
 │   └── people/       member photos
 ├── styles.scss       shared SCSS theme (root only)
@@ -44,7 +43,6 @@ once in the matching `_en/*.qmd`. The two trees are mirrors:
 | `research.qmd`     | `_en/research.qmd`     |
 | `people.qmd`       | `_en/people.qmd`       |
 | `publications.qmd` | `_en/publications.qmd` |
-| `gallery.qmd`      | `_en/gallery.qmd`      |
 
 Keep the same headings, same section order, and the same `[TODO: ...]`
 markers in both. If you add a page, add it to **both** trees *and* to both
@@ -177,11 +175,8 @@ rather than leaving the page pointing at a missing image.
 **News** — there is deliberately no news section or news page. It was removed
 from the home pages on request. Do not add one back unless asked.
 
-**A gallery figure** — drop the image in `images/gallery/`, then copy one
-`<figure class="gallery-item">` block in `gallery.qmd` *and*
-`_en/gallery.qmd` (the image file itself is shared, so it is added once).
-The grid is plain CSS with `auto-fill` — it reflows on its own, and there is
-no glob, listing, or R/Python dependency to keep working.
+**Gallery** — there is deliberately no gallery page. It was removed on
+request. Do not add one back unless asked.
 
 **A live tool** — a `.tool-card` in `research.qmd` *and* `_en/research.qmd`:
 a screenshot, `.tool-name`, `.tool-desc`, and a `.tool-link` pill pointing at
@@ -239,7 +234,7 @@ hover lift. No heavy drop shadows. Gold is decoration only. Both
 hamburger stay light on dusk. Component classes: `.hero`, `.card-grid` +
 `.research-card`, `.people-grid` + `.person-card` (with `.person-photo`,
 `.person-name`, `.person-role`, `.person-exp`, `.person-edu`,
-`.person-links`, `.person-bio`), `.gallery-grid` + `.gallery-item`, `.tool-card` (with
+`.person-links`, `.person-bio`), `.tool-card` (with
 `.tool-shot`, `.tool-name`, `.tool-desc`, `.tool-link`), `.cta-link`.
 
 `.people-grid` deliberately uses `auto-fit` with a **capped** max track
@@ -258,9 +253,9 @@ a `###` inside) emits `<section class="level3 research-card">`, not a `<div>`.
 The class still lands, so class selectors work — just avoid selectors that
 assume a `div` element.
 
-`index.qmd` and `gallery.qmd` use `page-layout: full`, capped to 1080px in
-`styles.scss`, with prose held to a 44rem measure. The other pages use
-Quarto's default article layout.
+`index.qmd` uses `page-layout: full`, capped to 1080px in `styles.scss`,
+with prose held to a 44rem measure. The other pages use Quarto's default
+article layout.
 
 ## 9. Citation style
 

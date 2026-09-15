@@ -16,10 +16,6 @@ title: "Research"
 
 [TODO: description]
 
-## Trajectory modeling
-
-[TODO: description]
-
 ## Microwave satellite retrievals
 
 [TODO: description]
@@ -42,7 +38,3 @@ Live LightGBM retrievals over East Asia (100–140°E, 10–50°N), compared aga
 :::
 
 [TODO: no screenshot yet — add one to images/tools/]
-
-## Funding
-
-[TODO: grants and funding sources]

@@ -192,9 +192,9 @@ language file — four occurrences total, two of them inside the commented-out
 
 **A research theme** — add a `##` section to `research.qmd` and
 `_en/research.qmd`, and, if it should be featured, a matching
-`.research-card` on both home pages. The home page shows a *subset*: 軌跡模擬
-/ Trajectory modeling is a research section with no home-page card. The two
-home pages must still carry the same cards as each other.
+`.research-card` on both home pages. The home page can show a subset of
+the research sections; the two home pages must still carry the same cards
+as each other.
 
 ## 7. Placeholder convention
 

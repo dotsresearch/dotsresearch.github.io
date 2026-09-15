@@ -28,25 +28,11 @@
     "text": "UTLS 過程\n[TODO: 研究說明]"
   },
   {
-    "objectID": "research.html#軌跡模擬",
-    "href": "research.html#軌跡模擬",
-    "title": "研究",
-    "section": "軌跡模擬",
-    "text": "軌跡模擬\n[TODO: 研究說明]"
-  },
-  {
     "objectID": "research.html#微波衛星反演",
     "href": "research.html#微波衛星反演",
     "title": "研究",
     "section": "微波衛星反演",
     "text": "微波衛星反演\n[TODO: 研究說明]\n\n\n\n\nATMS 微波反演即時監看\n\n\n[TODO: 工具說明——反演的物理量、資料來源與更新頻率]\n東亞地區（100–140°E、10–50°N）的 ATMS 反演結果，以 LightGBM 即時運算，並在可取得時與 MiRS 產品比對。\n\n開啟工具\n\n[TODO: 擷取畫面尚未加入，請將圖檔放入 images/tools/]"
-  },
-  {
-    "objectID": "research.html#研究資助",
-    "href": "research.html#研究資助",
-    "title": "研究",
-    "section": "研究資助",
-    "text": "研究資助\n[TODO: 計畫與經費來源]"
   },
   {
     "objectID": "people.html",

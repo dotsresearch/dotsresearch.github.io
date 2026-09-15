@@ -28,25 +28,11 @@
     "text": "UTLS processes\n[TODO: description]"
   },
   {
-    "objectID": "research.html#trajectory-modeling",
-    "href": "research.html#trajectory-modeling",
-    "title": "Research",
-    "section": "Trajectory modeling",
-    "text": "Trajectory modeling\n[TODO: description]"
-  },
-  {
     "objectID": "research.html#microwave-satellite-retrievals",
     "href": "research.html#microwave-satellite-retrievals",
     "title": "Research",
     "section": "Microwave satellite retrievals",
     "text": "Microwave satellite retrievals\n[TODO: description]\n\n\n\n\nATMS retrievals\n\n\n[TODO: tool description — retrieved quantities, input data, update cadence]\nLive LightGBM retrievals over East Asia (100–140°E, 10–50°N), compared against MiRS where available.\n\nOpen the tool\n\n[TODO: no screenshot yet — add one to images/tools/]"
-  },
-  {
-    "objectID": "research.html#funding",
-    "href": "research.html#funding",
-    "title": "Research",
-    "section": "Funding",
-    "text": "Funding\n[TODO: grants and funding sources]"
   },
   {
     "objectID": "people.html",

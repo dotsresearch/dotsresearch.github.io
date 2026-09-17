@@ -4,35 +4,35 @@
     "href": "research.html",
     "title": "Research",
     "section": "",
-    "text": "[TODO: overview paragraph]"
+    "text": "We study dynamics, transport, and cloud processes in the upper troposphere and lower stratosphere (UTLS) using satellite observations, reanalysis, and trajectory calculations, and we develop methods for retrieving atmospheric state from satellite radiances."
   },
   {
     "objectID": "research.html#stratospheretroposphere-exchange-ste",
     "href": "research.html#stratospheretroposphere-exchange-ste",
     "title": "Research",
     "section": "Stratosphere–troposphere exchange (STE)",
-    "text": "Stratosphere–troposphere exchange (STE)\n[TODO: description]"
+    "text": "Stratosphere–troposphere exchange (STE)\nAir exchanged across the tropopause affects the chemical composition and radiative effect of the lower stratosphere and the upper troposphere. We quantify the mass flux of this exchange and the mechanisms behind it, such as overshooting cloud tops and large-scale transport (Rossby wave breaking, tropopause folds)."
   },
   {
     "objectID": "research.html#tropopause-folds",
     "href": "research.html#tropopause-folds",
     "title": "Research",
     "section": "Tropopause folds",
-    "text": "Tropopause folds\n[TODO: description]"
+    "text": "Tropopause folds\nTropopause folds are tongues of stratospheric air drawn down along the tropopause by upper-level fronts and jet streaks, and they are the dominant pathway for stratosphere-to-troposphere transport in the midlatitudes. We study their distribution and the mechanisms that form them, and quantify the associated mass exchange."
   },
   {
     "objectID": "research.html#utls-processes",
     "href": "research.html#utls-processes",
     "title": "Research",
     "section": "UTLS processes",
-    "text": "UTLS processes\n[TODO: description]"
+    "text": "UTLS processes\nOur work covers the tropopause region in both the midlatitudes and the tropics — for example, gravity waves in the tropical tropopause layer and the cirrus they generate, and the monsoon anticyclones found at these altitudes."
   },
   {
     "objectID": "research.html#microwave-satellite-retrievals",
     "href": "research.html#microwave-satellite-retrievals",
     "title": "Research",
     "section": "Microwave satellite retrievals",
-    "text": "Microwave satellite retrievals\n[TODO: description]\n\n\n\n\nATMS retrievals\n\n\n[TODO: tool description — retrieved quantities, input data, update cadence]\nLive LightGBM retrievals over East Asia (100–140°E, 10–50°N), compared against MiRS where available.\n\nOpen the tool\n\n[TODO: no screenshot yet — add one to images/tools/]"
+    "text": "Microwave satellite retrievals\nMachine-learning retrievals of temperature and humidity profiles and hydrometeors from ATMS microwave radiances.\n\n\n\n\nATMS retrievals\n\n\nNear-real-time retrievals of temperature and humidity profiles, cloud liquid water, and ice water path from ATMS microwave radiances, produced on each overpass.\nLive LightGBM retrievals over East Asia (100–140°E, 10–50°N), compared against MiRS where available.\n\nOpen the tool"
   },
   {
     "objectID": "people.html",

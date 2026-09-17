@@ -4,35 +4,35 @@
     "href": "research.html",
     "title": "研究",
     "section": "",
-    "text": "[TODO: 一段研究整體概述]"
+    "text": "我們以衛星觀測、再分析資料與軌跡計算，研究上對流層與下平流層（UTLS）的動力、傳送與雲過程，並發展從衛星輻射量反演大氣狀態的方法。"
   },
   {
-    "objectID": "research.html#平流層對流層交換ste",
-    "href": "research.html#平流層對流層交換ste",
+    "objectID": "research.html#平流層對流層交換stratospheric-tropospheric-exchange",
+    "href": "research.html#平流層對流層交換stratospheric-tropospheric-exchange",
     "title": "研究",
-    "section": "平流層－對流層交換（STE）",
-    "text": "平流層－對流層交換（STE）\n[TODO: 研究說明]"
+    "section": "平流層－對流層交換（stratospheric-tropospheric exchange）",
+    "text": "平流層－對流層交換（stratospheric-tropospheric exchange）\n跨越對流層頂的氣體交換，會影響低平流層與上對流層的化學組成與輻射效應。我們量化交換的質量通量及其發生機制，例如過衝雲頂或是大尺度傳輸（例如Rossby wave breaking、對流層頂摺疊）。"
   },
   {
-    "objectID": "research.html#對流層頂摺曲",
-    "href": "research.html#對流層頂摺曲",
+    "objectID": "research.html#對流層頂摺疊tropopause-folds",
+    "href": "research.html#對流層頂摺疊tropopause-folds",
     "title": "研究",
-    "section": "對流層頂摺曲",
-    "text": "對流層頂摺曲\n[TODO: 研究說明]"
+    "section": "對流層頂摺疊（tropopause folds）",
+    "text": "對流層頂摺疊（tropopause folds）\n對流層頂摺疊是高層鋒面與噴流在對流層頂處拉伸出的平流層空氣舌狀構造，也是中緯度平流層空氣向下輸送的主要途徑。我們摺疊的分布、機制、以及也量化相關的質量交換。"
   },
   {
-    "objectID": "research.html#utls-過程",
-    "href": "research.html#utls-過程",
+    "objectID": "research.html#utls-過程upper-troposphere-and-lower-stratosphere-processes",
+    "href": "research.html#utls-過程upper-troposphere-and-lower-stratosphere-processes",
     "title": "研究",
-    "section": "UTLS 過程",
-    "text": "UTLS 過程\n[TODO: 研究說明]"
+    "section": "UTLS 過程（upper troposphere and lower stratosphere processes）",
+    "text": "UTLS 過程（upper troposphere and lower stratosphere processes）\n研究包含中緯度以及熱帶對流層附近的研究，例如熱帶對流層頂層中的重力波及其所生成的卷雲，以及在此高度的季風反氣旋。"
   },
   {
-    "objectID": "research.html#微波衛星反演",
-    "href": "research.html#微波衛星反演",
+    "objectID": "research.html#微波衛星反演microwave-satellite-retrievals",
+    "href": "research.html#微波衛星反演microwave-satellite-retrievals",
     "title": "研究",
-    "section": "微波衛星反演",
-    "text": "微波衛星反演\n[TODO: 研究說明]\n\n\n\n\nATMS 微波反演即時監看\n\n\n[TODO: 工具說明——反演的物理量、資料來源與更新頻率]\n東亞地區（100–140°E、10–50°N）的 ATMS 反演結果，以 LightGBM 即時運算，並在可取得時與 MiRS 產品比對。\n\n開啟工具\n\n[TODO: 擷取畫面尚未加入，請將圖檔放入 images/tools/]"
+    "section": "微波衛星反演（microwave satellite retrievals）",
+    "text": "微波衛星反演（microwave satellite retrievals）\n以機器學習從 ATMS 微波輻射量反演溫濕度剖面及水象粒子。\n\n\n\n\nATMS 微波反演即時監看\n\n\n以 ATMS 微波輻射量，每次衛星過境即時反演溫度與濕度垂直廓線，以及雲液態水與冰水路徑等水成物。\n東亞地區（100–140°E、10–50°N）的 ATMS 反演結果，以 LightGBM 即時運算，並在可取得時與 MiRS 產品比對。\n\n開啟工具"
   },
   {
     "objectID": "people.html",

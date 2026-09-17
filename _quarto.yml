@@ -59,3 +59,16 @@ format:
   html:
     theme: [cosmo, styles.scss]
     toc: false
+    # Background-image lives here, not in styles.scss: Quarto scans compiled
+    # CSS for url() and copies those files from the *current* project, so a
+    # url("/images/logo.svg") in the shared theme 404s the English render
+    # (it looks under _en/images/).
+    include-in-header:
+      - text: |
+          <style>
+            body::before,
+            .hero::before,
+            .navbar .navbar-brand::before {
+              background-image: url("/images/logo.svg");
+            }
+          </style>

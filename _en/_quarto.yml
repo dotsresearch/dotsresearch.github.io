@@ -37,3 +37,15 @@ format:
   html:
     theme: [cosmo, ../styles.scss]
     toc: false
+    # See root _quarto.yml: logo url must not live in the shared SCSS.
+    # Must be ../images, not /images — Quarto rewrites a leading / against
+    # THIS project's root (/en/), which would 404 /en/images/logo.svg.
+    include-in-header:
+      - text: |
+          <style>
+            body::before,
+            .hero::before,
+            .navbar .navbar-brand::before {
+              background-image: url("../images/logo.svg");
+            }
+          </style>

@@ -50,8 +50,44 @@ html {
 }
 
 body {
+  position: relative;
+  isolation: isolate;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+}
+
+// Inner-page letterhead. Hidden on the home page, where the hero
+// already carries the seal. Cards stay opaque so body copy never
+// sits on the otter. Not background-attachment: fixed — that janks on iOS.
+body::before {
+  content: "";
+  position: absolute;
+  top: 5.75rem;
+  right: 0;
+  width: 26rem;
+  aspect-ratio: 1;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.07;
+  pointer-events: none;
+  z-index: -1;
+  transform: translateX(18%);
+}
+body:has(.hero)::before {
+  content: none;
+}
+@media (max-width: 991.98px) {
+  body::before {
+    width: 16rem;
+    opacity: 0.045;
+    transform: translateX(28%);
+  }
+}
+@media (max-width: 575.98px) {
+  body::before {
+    content: none;
+  }
 }
 
 // --- Navbar -----------------------------------------------------------
@@ -71,9 +107,26 @@ body {
   --bs-navbar-toggler-border-color: #{rgba($hero-fg, 0.35)};
 }
 .navbar .navbar-brand {
+  display: flex;
+  align-items: center;
   font-weight: 700;
   letter-spacing: -0.015em;
   color: $hero-fg;
+}
+// CSS badge rather than Quarto navbar.logo: the English project cannot
+// load a parent-directory file as a logo (Quarto strips `..` / leading
+// `/` and looks under `_en/images/`). One shared `/images/logo.svg`.
+.navbar .navbar-brand::before {
+  content: "";
+  display: block;
+  width: 32px;
+  height: 32px;
+  margin-right: 0.55rem;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  flex-shrink: 0;
 }
 .navbar .nav-link {
   font-weight: 500;
@@ -201,6 +254,7 @@ body:has(.hero) #title-block-header {
 }
 .hero {
   position: relative;
+  overflow: hidden;
   width: 100vw;
   margin-left: calc(50% - 50vw);
   margin-bottom: 1.25rem;
@@ -215,6 +269,28 @@ body:has(.hero) #title-block-header {
   color: $hero-fg;
   border-bottom: none;
 }
+// Roundel on the right of the sky band. `right` cannot use 50%: the hero
+// is 100vw, so 50% would be 50vw and the seal would sit on the viewport
+// edge. 540px is half of the 1080px content cap.
+.hero::before {
+  content: "";
+  position: absolute;
+  top: auto;
+  bottom: 1.35rem;
+  right: max(1.5rem, calc(50vw - 540px));
+  width: min(28vw, 16.5rem);
+  aspect-ratio: 1;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  pointer-events: none;
+  opacity: 0.92;
+  z-index: 0;
+}
+.hero > * {
+  position: relative;
+  z-index: 1;
+}
 .hero::after {
   content: "";
   position: absolute;
@@ -224,6 +300,7 @@ body:has(.hero) #title-block-header {
   height: 3px;
   background: $gold;
   pointer-events: none;
+  z-index: 2;
 }
 .hero .hero-eyebrow {
   text-transform: uppercase;
@@ -264,10 +341,26 @@ body:has(.hero) #title-block-header {
   overflow-wrap: break-word;
   max-width: 100%;
 }
+@media (min-width: 576px) {
+  .hero {
+    padding-right: max(
+      1.5rem,
+      calc(50vw - 540px + min(28vw, 16.5rem) + 2rem)
+    );
+  }
+}
 @media (max-width: 575.98px) {
   .hero {
     padding-top: calc(56px + 1.75rem);
-    padding-bottom: 2.5rem;
+    padding-bottom: 7.25rem;
+  }
+  .hero::before {
+    top: auto;
+    bottom: 0.85rem;
+    left: auto;
+    right: 1.1rem;
+    width: 5.75rem;
+    opacity: 0.9;
   }
 }
 

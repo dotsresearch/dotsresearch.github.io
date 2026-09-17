@@ -1,2 +1,5 @@
 /.quarto/
 **/*.quarto_ipynb
+/*.html
+/site_libs/
+/index_files/
